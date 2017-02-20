@@ -1,0 +1,275 @@
+
+h1 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 25%;
+    text-align: center;
+    border-color: #cccccc;
+}
+
+body {
+    width: 960px;
+    background-image: url("../images/dark_embroidery.png");
+}
+
+p {
+    margin-left: 20em;
+    margin-right: 3em;
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li > img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #666666;
+    clear: both;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+main {
+    background-color: white;
+    width: 650px;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    float: left;
+}
+
+
+/*aside {
+	width: 270px;
+}*/
+
+aside {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    margin-top: -56%;
+    position: relative;
+    right: -11em;
+    width: 270px;
+}
+
+li {
+    display: inline-block;
+}
+
+#asideDiv {
+    width: 45%%;
+}
+
+#connectWithMe {
+    height: 55%;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-color: #cccccc;
+    text-align: center;
+}
+
+#git,
+#linkedin,
+#stack {
+    width: 50px;
+    height: 50px;
+}
+
+#Noah {
+    color: white;
+    text-align: center;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 1em;
+    height: 2em;
+    padding: 2px;
+}
+
+#about {
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-color: #cccccc;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 30px;
+}
+
+#apc {
+    background-image: url("../images/brickwall.png");
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 0px;
+    width: 150%;
+    height: 50px;
+    text-align: right;
+    z-index: -1;
+    margin-top: 0;
+    margin-left: -30em;
+    padding: 25px;
+    color: #777777;
+}
+
+#a,
+#p,
+#c {
+    text-decoration: none;
+    color: #777777;
+    position: relative;
+    right: 11em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #777777;
+    cursor: pointer;
+}
+
+#noahKing {
+    margin: 0 0 10px 10px;
+    float: left;
+}
+
+#header {
+    width: 575px;
+}
+
+#CWEimg {}
+
+#asideContact {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    position: relative;
+    right: -11em;
+    width: 270px;
+}
+
+#contactForm {
+    height: 20em;
+    width: 40em;
+    background-color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+#contactName,
+#contactEmail {
+    width: 95%;
+    height: 1em;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#contactMessage {
+    width: 95%;
+    height: 5em;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    margin-top: 2em;
+    width: 10em;
+    height: 4em;
+    border: transparent;
+}
+
+#portImg {
+    height: 12em;
+    width: 12em;
+    padding: 1em;
+}
+
+#portUl {
+    width: 500px;
+}
+
+#hangman {
+    position: absolute;
+    top: 400px;
+    left: 160px;
+    width: 192px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#rpg {
+    position: absolute;
+    top: 400px;
+    left: 388px;
+    width: 192px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#trivia {
+    position: absolute;
+    top: 630px;
+    left: 160px;
+    width: 192px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#rutgers {
+    position: absolute;
+    top: 600px;
+    left: 388px;
+    width: 192px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#rps {
+    position: absolute;
+    top: 830px;
+    left: 160px;
+    width: 192px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#portAside {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    margin-top: -96.5%;
+    position: relative;
+    right: -11em;
+    width: 270px;
+}
