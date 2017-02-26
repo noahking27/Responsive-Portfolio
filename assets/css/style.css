@@ -65,7 +65,8 @@ aside {
     background-color: white;
     float: right;
     padding: 20px;
-    margin-top: -56%;
+  /*  margin-top: -56%;*/
+    margin-top:-20em;
     position: relative;
     right: -11em;
     width: 270px;
@@ -134,6 +135,15 @@ li {
 #a,
 #p,
 #c {
+    text-decoration: none;
+    color: #777777;
+    position: relative;
+    right: 11em;
+}
+
+.a,
+.p,
+.c {
     text-decoration: none;
     color: #777777;
     position: relative;
@@ -268,8 +278,162 @@ ul li a {
     background-color: white;
     float: right;
     padding: 20px;
-    margin-top: -96.5%;
+    margin-top: -20em;
     position: relative;
     right: -11em;
     width: 270px;
 }
+
+@media screen and (max-width: 640px) {
+ 
+ #Noah {
+    margin-top: auto;
+    margin-left: auto;
+    width: 100%;
+ }
+
+ #apc {
+    margin-top: 75px;
+    width: 93%;
+    margin-left: auto;
+    text-align: right;
+ }
+
+ #noahKing {
+    width: 20em;
+    height: 20em;
+    clear: both;
+    width: 80%;
+    margin-left: 4em;
+
+ }
+
+#portAside {
+    position: relative;
+    bottom: -10em;
+    float: left;
+    clear: both;
+    left: 15px;
+    width: 92%;
+}
+
+#portImg {
+    width: 90%
+}
+
+
+#hangman {
+    position: absolute;
+    top: 450px;
+    left: 79px;
+    width: 450px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#rpg {
+    position: absolute;
+    top: 680px;
+    left: 79px;
+    width: 450px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+
+}
+
+#trivia {
+    position: absolute;
+    top: 910px;
+    left: 79px;
+    width: 450px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+
+
+}
+
+#rutgers {
+    position: absolute;
+    top: 1140px;
+    left: 79px;
+    width: 450px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+
+}
+
+#rps {
+    position: absolute;
+    top: 1370px;
+    left: 79px;
+    width: 450px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+
+}
+
+#portFooter {
+    position: relative;
+}
+
+#contactForm {
+    width: 90%;
+}
+
+
+ 
+ }
+
+ body {
+    width: 100%;
+ }
+
+ main {
+    float: left;
+    margin-bottom: 25em;
+    margin-top: 6em;
+    width: 97%;
+    margin-left: 15px;
+ }
+
+ aside {
+    float: left;
+    clear: both;
+    position: relative;
+    left: 15px;
+    width: 92%;
+ }
+
+p {
+    float: left;
+    clear: both;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: -33em;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+
+
+
